@@ -1,0 +1,147 @@
+body{
+  
+  padding: 0%;
+  background-color: #372426;
+  
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+ 
+  }
+
+ 
+  
+
+.bt-1{
+   
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: 0%;
+  text-align: center;
+  padding: 6.25rem 0;
+  margin-bottom: 2rem;
+ 
+    
+  }
+  .h-container{
+    padding: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: blanchedalmond;
+    font-family: 'Gill Sans';
+  }
+  .features {
+    justify-content: space-around;
+    align-items: center;
+    padding: 3.125rem 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .card{
+  
+  text-align: center;
+  width: 25rem;
+  
+  }
+  
+  .card img{
+    height: 11.25rem;
+    width: 25rem;
+    
+  }
+
+  .card p{
+    color: black;
+  }
+
+  .card a:hover{
+    text-decoration: none;
+    box-shadow: 5px 10px 10px grey;
+  } 
+
+  .card p:hover{
+    color: #fcbe03;
+    text-decoration: none;
+  }
+
+
+  .footer {
+    
+    color: var(--default-color);
+    background-color: rgb(246, 246, 255);
+    font-size: 14px;
+    padding-bottom: 3.125rem;
+    position: relative;
+  }
+
+  .footer-contact a{
+    color: black;
+
+  }
+
+  .footer-contact a:hover{
+    color: #fcbe03;
+    text-decoration: none;
+
+  }
+
+
+  .footer .social-links{
+    padding-bottom: 2rem;
+  }
+
+  .footer .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    color:  rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+    
+    
+  }
+
+  .footer .social-links a:hover {
+    color: #fcbe03;
+    border-color: #fcbe03;
+    text-decoration: none;
+  }
+
+  .footer li {
+    list-style-type: none;
+  }
+
+  .footer li a {
+    color:  rgba(0, 0, 0, 0.5);
+  }
+
+  .footer li a:hover{
+    color: #fcbe03;
+    text-decoration: none;
+  }
+
+  
+  
+  @media screen and (max-width: 768px) {
+    .bt-container {
+        padding: 5rem 0;
+    }
+    .h-container {
+      padding: 10px;
+  }
+  .card-deck {
+    flex-direction: column;
+    
+}
+.card{
+  padding: 0;
+}
+
+  
+}
+
+   
